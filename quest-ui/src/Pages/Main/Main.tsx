@@ -9,9 +9,7 @@ import EbeneLogo from "../../svgs/Ebene_x0020_1.svg";
 import NearPodLogo from "../../svgs/Nearpod (logo — Black).svg";
 import RafkiLogo from "../../svgs/rafiki.svg";
 import Card from "../../Components/Card/Card";
-import AppLogo from '../../svgs/app-store-png-logo-33115 1.svg'
 import QuestApp from  '../../svgs/Quest App.svg';
-import Ellipse1 from '../../svgs/Ellipse 1.svg'
 const Main = () => {
   return (
     <>
@@ -22,7 +20,10 @@ const Main = () => {
             Issues.
           </h1>
           <p className={Styles.p}> {data?.heroSection?.p} </p>
+          <div className={Styles.BtnContainer}>
           <button className={Styles.RegisterBtn}>Create Account</button>
+          </div>
+        
         </div>
         <div className={Styles.Right}>
           <img src={RafkiLogo} alt="" />
@@ -103,46 +104,11 @@ const Main = () => {
             and Apple devices.
           </p>
           <div className={Styles.AppLogo}>
-          <img src={AppLogo} alt=""/>
+          {/* <img src={AppLogo} alt=""/> */}
           </div>      
         </div>
         <div className={Styles.Right}>
           <img className={Styles.SvgLogo} src={QuestApp} alt="" />
-        </div>
-      </div>
-      <div className={Styles.QuestionSection}>
-        <div className={Styles.Left}>
-          <h2>Frequently Asked Question </h2>
-          <p className={Styles.LeftParagraph}> Can't see your questions here ? </p>
-          <ul className={Styles.QuesLinks}>
-            <li className={Styles.QuestionText}>
-              <a  className={Styles.QuestionLink} href="/"> Send us an Email</a>
-            </li>
-            <li className={Styles.QuestionText}>
-              <a className={Styles.QuestionLink} href="/">Start a Live Chat</a>
-            </li>
-          </ul>
-        </div>
-        <div className={Styles.Right}>
-          <ul className={Styles.QuestionsGroup}>
-            <li>
-              <h2 className={Styles.QuestionSubHeading}> Can i try Quest for free ?</h2>
-              <p className={Styles.QuestionParagraph}> Yes! Quest is free to try for 7days on us. We think you'll love it and will ask for payment details at the end of your trial.</p>
-            </li>
-            <li>
-              <h2  className={Styles.QuestionSubHeading}> Are there discounts for non-profits or educational use?</h2>
-              <p className={Styles.QuestionParagraph}> Yes! Quest is free for non-profit and educational use. Email use at any time during your trial let us know or as to check if you qualify.</p>
-            </li>
-            <li>
-              <h2  className={Styles.QuestionSubHeading}> How are users counted for billing?</h2>
-              <p className={Styles.QuestionParagraph}> At the end of the monthly billing cycle, you will be billed for the month for the number of users that can login to Quest. any users added during the month will not count for the purpose of billing until the following month. Quest admins may deactivate users at any time.</p>
-            </li>
-            <li>
-              <h2  className={Styles.QuestionSubHeading}> What happens if am not satisfied with Quest ?</h2>
-              <p className={Styles.QuestionParagraph}> We offer a 30-day money back guarantee.</p>
-            </li>
-          </ul>
-
         </div>
       </div>
     </>

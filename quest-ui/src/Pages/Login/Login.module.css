@@ -15,12 +15,7 @@
       flex: 1;
       padding: 2rem 5rem;
     }
-    /* .Grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 0.8rem;
-    }*/
-    .LoginForm {
+        .LoginForm {
       margin: 5rem 0;
     }
   }
@@ -76,6 +71,7 @@
   .Right h1 {
     color: var(--white);
     margin-top: 15rem;
+    font-size: 2rem;
   }
   .Right h1, .Right h2 {
     font-weight: 500;
@@ -129,3 +125,14 @@
     color:rgb(78, 78, 78);
   }
  
+  @media screen and (max-width: 800px){
+    .Container .Right{
+      display: none;
+    }
+    .Container {
+      padding: 3rem 2rem;
+    }
+  }
+  .Input input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+  }

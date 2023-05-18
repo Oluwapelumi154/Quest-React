@@ -6,11 +6,8 @@
     margin: 0 auto;
     padding: 5rem 2rem;
   }
-  .QuestionSection .Left {
-    flex: 1;
-  }
-  .QuestionSection .Right {
-    flex: 2;
+  .RegisterBtn {
+    padding: 0.8rem 1.4rem 0.8rem 1.4rem;
   }
   .HeroSection .Right,
   .HeroSection .Left {
@@ -37,11 +34,11 @@
     line-height: 2;
   }
   .Testimonials {
-    width: 1250px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
-    column-gap: 1rem;
+    width: 1150px;
+    column-gap: 2rem;
     padding: 3rem 2rem;
   }
 
@@ -64,9 +61,6 @@
     align-items: center;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 2.5rem;
-  }
-  .QuestionSection {
-    display: flex;
   }
 
   .SubscriberSection {
@@ -92,25 +86,11 @@
     color: var(--white);
   }
   .MobileAppSection {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     width: 1250px;
     margin: 0 auto;
     padding: 3rem 2rem;
-  }
-  .MobileAppSection .Left,
-  .MobileAppSection .Right {
-    flex: 1;
-  }
-  .QuestionSection {
-    width: 1250px;
-    margin: 0 auto;
-    padding: 2.5rem 2rem;
-  }
-  .QuestionSection .Left {
-    margin-top: 2rem;
-  }
-  .QuestionsGroup li {
-    margin: 2rem;
   }
 }
 .FeatureContent {
@@ -134,9 +114,9 @@
 .SubscriberForm {
   margin-top: 2rem;
 }
-.LeftParagraph{
+.LeftParagraph {
   margin-top: 1rem;
-  color:  rgb(70, 70, 70);
+  color: rgb(70, 70, 70);
 }
 
 /* Mobile View */
@@ -145,16 +125,23 @@
     margin-top: 1.4rem;
     line-height: 2;
   }
+  .RegisterBtn {
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    margin-top: 0.2rem;
+  }
+  .SvgLogo {
+    width: 100%;
+  }
   .Testimonials {
     padding: 1.8rem 2rem;
     display: grid;
-    row-gap: 1.5rem;
+    row-gap: 2rem;
   }
-  .SubscriberForm input{
+  .SubscriberForm input {
     width: 100%;
   }
   .Features {
-   padding: 1.8rem 2rem
+    padding: 1.8rem 2rem;
   }
   .HeroSection .Right {
     display: none;
@@ -173,9 +160,7 @@
     font-size: 1.1rem;
     color: rgb(78, 74, 74);
   }
-  .RegisterBtn {
-    margin-top: 0.2rem;
-  }
+
   .h1 {
     font-size: 2.5rem;
   }
@@ -205,20 +190,11 @@
   }
   .MobileAppSection {
     padding: 1rem 2rem;
+    display: grid;
+    row-gap: 2rem;
   }
   .MobileAppSection .SvgLogo {
     width: 100%;
-  }
-  .QuestionSection {
-    padding: 1.8rem 2rem;
-  }
-  .QuesLinks {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  .QuestionsGroup li {
-    margin: 1.5rem 0;
   }
 }
 
@@ -238,7 +214,6 @@
   background-color: var(--dark-blue);
   color: var(--white);
   border: none;
-  padding: 0.8rem 1.4rem 0.8rem 1.4rem;
   margin-top: 1.2rem;
   border-radius: 8px;
   font-size: 1rem;
@@ -254,39 +229,6 @@
   font-size: 0.9rem;
   line-height: 2;
 }
-.QuestionParagraph {
-  margin-top: 0.8rem;
-  font-size: 0.9rem;
-  line-height: 2.5;
-  color: rgb(70, 70, 70);
-}
-.QuestionSection ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 1.3rem 0;
-}
-
-.QuestionSection .Left h2 {
-  font-size: 2rem;
-}
-.QuestionLink {
-  text-decoration: none;
-  font-size: 0.9rem;
-  color: var(--dark-blue);
-  font-weight: 400;
-  line-height: 2.3rem;
-}
-.QuestionSubHeading {
-  font-size: 1rem;
-  color: rgb(65, 64, 64);
-}
-
-/*.QuestionText{
-  margin: 0.5rem 0;
-}
-.LeftParagraph{
-  margin-top: 1rem;
-} */
 
 .AppLogo {
   margin-top: 2.5rem;

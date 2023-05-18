@@ -18,8 +18,6 @@ const Login = () => {
           <div className={Styles.LoginForm}>
             <div className={Styles.FormHeader}>
               <h2>
-                {/* <a href="/sign-up" className={Styles.accountHeader}> */}
-                {/* </a> */}
                 Login into your account
                 <small className={Styles.fullStop}>.</small>
               </h2>

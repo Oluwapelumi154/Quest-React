@@ -1,26 +1,36 @@
 .Card {
   background-color: var(--white);
-  padding: 1.8rem 1.2rem;
-  /* width: 350px; */
+  padding: 1.5rem 1.3rem 3rem 1.3rem;
   color: rgb(77, 71, 71);
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgb(167, 162, 162);
+  border-radius: 8px;
+  /* box-shadow: 0 2px 8px rgb(167, 162, 162); */
 }
-@media screen and (min-width: 800px) {
+
+@media screen and (max-width:800px){
   .Card {
-    width: 350px;
+    width: 100%;
   }
 }
 
 .Card p {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   line-height: 2;
   font-size: 0.85rem;
 }
 .Card h2 {
-  font-size: 1.4rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
 }
 .UserProfilePic {
   border-radius: 50%;
   height: 50px;
+}
+.Rating {
+  color: rgb(255, 217, 0);
+  font-size: 1.3rem;
+}
+.CardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

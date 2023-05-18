@@ -7,6 +7,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Pages/Footer/Footer";
 import Contact from "../Pages/Contact/Contact";
 import Pricing from "../Pages/Pricing/Pricing";
+import Question from "../Pages/Question/Question";
 
 const Router = () => {
   return (
@@ -17,18 +18,23 @@ const Router = () => {
           <>
             <Navbar />
             <Main />
+            <Question/>
             <Footer />
           </>
         }
       />
       <Route path="/sign-up" element={<SignUp />} />
       <Route path="/sign-in" element={<Login />} />
+      <Route path="/resource" element={<>
+      <h1> Coming Soon </h1>
+      </>}/>
       <Route
         path="/contact"
         element={
           <>
             <Navbar />
             <Contact />
+            <Question/>
             <Footer />
           </>
         }
@@ -39,6 +45,7 @@ const Router = () => {
           <>
             <Navbar />
             <Pricing />
+            <Question/>
             <Footer />
           </>
         }
