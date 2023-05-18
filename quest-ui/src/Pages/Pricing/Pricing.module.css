@@ -1,0 +1,140 @@
+@media screen and (min-width: 800px) {
+  .Container {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .PricingPlans {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+  }
+  .Rugby {
+    transform: scaleY(1.1)
+  }
+  .Starter,
+  .Rugby,
+  .Saphhire {
+    width: 330px;
+  }
+}
+.Starter,
+.Rugby,
+.Saphhire {
+  padding: 2rem 2rem;
+  margin: 3rem 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(155, 155, 155) ;
+}
+
+.Container {
+  padding: 3rem 2rem;
+}
+
+.Starter h1,
+.Rugby h1,
+.Saphhire h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+
+.PlanFeatures {
+  list-style-type: none;
+  margin: 1.8rem 0;
+}
+
+.PlanFeatures li {
+  margin-top: 1.6rem;
+}
+
+.badge h2 {
+  margin: 1.6rem 0;
+}
+
+.badge h2 {
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 0.65rem 0;
+}
+
+.badge .BlueBadge {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-size: 0.9rem;
+}
+
+.badge .WhiteBadge {
+  background-color: var(--white);
+  color: var(--dark-blue);
+  font-size: 0.8rem;
+}
+
+.Starter,
+.Saphhire {
+  background-color: var(--white);
+}
+.Rugby {
+  background-color: var(--dark-blue);
+}
+.Rugby ul {
+  color: #fff;
+}
+.Rugby h1 {
+  color: var(--white);
+}
+
+#Rugby .feature,
+.feature {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  column-gap: 1.3rem;
+}
+.feature small {
+  display: inline-block;
+  font-size: 0.85rem;
+}
+.Rugby small {
+  font-size: 0.75rem;
+}
+.Price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  position: relative;
+}
+.Price .Amount {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.Price .Currency {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: var(--dark-blue);
+  position: absolute;
+  transform: translate(-150%, -50%);
+}
+
+.Rugby .Price {
+  color: #fff;
+}
+#RugbyCurrency {
+  color: var(--white);
+}
+.Rugby .TickIcon {
+  color: var(--white);
+}
+.Rugby .TickIcon,
+.Starter .TickIcon,
+.Saphhire .TickIcon {
+  font-size: 0.85rem;
+}
+.Starter .TickIcon,
+.Saphhire .TickIcon {
+  color: var(--dark-blue);
+}

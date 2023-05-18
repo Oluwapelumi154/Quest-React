@@ -1,0 +1,23 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background-color: #faf8f8;
+  overflow-x: hidden;
+
+}
+:root {
+  /* --dark-blue: #13158f; */
+  --dark-blue: #0038FF;
+  --gray: #e6e6e6;
+  --white: #fff;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+
+}

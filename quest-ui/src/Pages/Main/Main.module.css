@@ -1,0 +1,298 @@
+/**  Desktop View **/
+@media screen and (min-width: 800px) {
+  .HeroSection {
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+  }
+  .QuestionSection .Left {
+    flex: 1;
+  }
+  .QuestionSection .Right {
+    flex: 2;
+  }
+  .HeroSection .Right,
+  .HeroSection .Left {
+    flex: 1;
+  }
+  .Features h2 {
+    padding: 2.5rem;
+    font-size: 2rem;
+  }
+  .Features {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .FeatureContent {
+    display: flex;
+  }
+  .FeatureContent .Right,
+  .FeatureContent .Left {
+    flex: 1;
+  }
+  .FeatureContent .Right p {
+    margin-top: 1.4rem;
+    line-height: 2;
+  }
+  .Testimonials {
+    width: 1250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    column-gap: 1rem;
+    padding: 3rem 2rem;
+  }
+
+  .p {
+    width: 480px;
+    font-size: 1.1rem;
+  }
+  .h1 {
+    font-size: 3rem;
+  }
+  .HeroLogo {
+    padding: 2rem;
+    background-color: var(--white);
+  }
+  .Logos {
+    width: 1250px;
+    padding: 0 2rem;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 2.5rem;
+  }
+  .QuestionSection {
+    display: flex;
+  }
+
+  .SubscriberSection {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+  }
+  .SubscriberForm {
+    border: 1px solid var(--gray);
+    display: flex;
+    margin-top: 2rem;
+    width: 500px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+
+  .SubscriberForm button {
+    border: none;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--dark-blue);
+    color: var(--white);
+  }
+  .MobileAppSection {
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+  }
+  .MobileAppSection .Left,
+  .MobileAppSection .Right {
+    flex: 1;
+  }
+  .QuestionSection {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+  }
+  .QuestionSection .Left {
+    margin-top: 2rem;
+  }
+  .QuestionsGroup li {
+    margin: 2rem;
+  }
+}
+.FeatureContent {
+  margin-top: 1.8rem;
+}
+.SubscriberSection h2 {
+  text-align: center;
+}
+.FormContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SubscriberForm input {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--white);
+}
+.SubscriberForm {
+  margin-top: 2rem;
+}
+.LeftParagraph{
+  margin-top: 1rem;
+  color:  rgb(70, 70, 70);
+}
+
+/* Mobile View */
+@media screen and (max-width: 800px) {
+  .FeatureContent .Right p {
+    margin-top: 1.4rem;
+    line-height: 2;
+  }
+  .Testimonials {
+    padding: 1.8rem 2rem;
+    display: grid;
+    row-gap: 1.5rem;
+  }
+  .SubscriberForm input{
+    width: 100%;
+  }
+  .Features {
+   padding: 1.8rem 2rem
+  }
+  .HeroSection .Right {
+    display: none;
+  }
+  .FeatureContent .Left {
+    display: none;
+  }
+  .HeroSection {
+    padding: 1.8rem 2rem;
+  }
+  .FeatureContent .Right h3 {
+    padding: 0;
+    margin: 0;
+  }
+  .p {
+    font-size: 1.1rem;
+    color: rgb(78, 74, 74);
+  }
+  .RegisterBtn {
+    margin-top: 0.2rem;
+  }
+  .h1 {
+    font-size: 2.5rem;
+  }
+  .Logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 2rem;
+  }
+  .Logos img {
+    width: 85px;
+  }
+  .SubscriberForm button {
+    margin-top: 1.8rem;
+    padding: 0.5rem 0.9rem;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    border-radius: 7px;
+  }
+  .SubscriberForm input {
+    border-radius: 8px;
+    padding: 0.7rem 1rem;
+    border: 1px solid var(--gray);
+  }
+  .FormContent {
+    padding: 0 2rem;
+  }
+  .MobileAppSection {
+    padding: 1rem 2rem;
+  }
+  .MobileAppSection .SvgLogo {
+    width: 100%;
+  }
+  .QuestionSection {
+    padding: 1.8rem 2rem;
+  }
+  .QuesLinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .QuestionsGroup li {
+    margin: 1.5rem 0;
+  }
+}
+
+.h1 {
+  padding: 0;
+  margin: 0;
+}
+.p {
+  line-height: 40px;
+  margin-top: 0.8rem;
+}
+.val {
+  color: var(--dark-blue);
+  display: inline-block;
+}
+.RegisterBtn {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  border: none;
+  padding: 0.8rem 1.4rem 0.8rem 1.4rem;
+  margin-top: 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.Features h2 {
+  text-align: center;
+}
+
+.MobileAppSection .Left p {
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  line-height: 2;
+}
+.QuestionParagraph {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  line-height: 2.5;
+  color: rgb(70, 70, 70);
+}
+.QuestionSection ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1.3rem 0;
+}
+
+.QuestionSection .Left h2 {
+  font-size: 2rem;
+}
+.QuestionLink {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: var(--dark-blue);
+  font-weight: 400;
+  line-height: 2.3rem;
+}
+.QuestionSubHeading {
+  font-size: 1rem;
+  color: rgb(65, 64, 64);
+}
+
+/*.QuestionText{
+  margin: 0.5rem 0;
+}
+.LeftParagraph{
+  margin-top: 1rem;
+} */
+
+.AppLogo {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+.AppLogo img {
+  width: 300px;
+}

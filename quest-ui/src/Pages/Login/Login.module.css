@@ -1,0 +1,131 @@
+@media screen and (min-width: 800px) {
+    .Container {
+      display: flex;
+      min-height: 100vh;
+      position: relative
+    }
+    .VectaryIcon {
+      position: absolute;
+      top: -2rem;
+      left: 37%;
+      width: 400px;
+    }
+    .Container .Left,
+    .Container .Right {
+      flex: 1;
+      padding: 2rem 5rem;
+    }
+    /* .Grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 0.8rem;
+    }*/
+    .LoginForm {
+      margin: 5rem 0;
+    }
+  }
+  .formGroup {
+    margin-top: 1.8rem;
+  }
+  .Container .Right {
+    background-color: var(--dark-blue);
+  }
+  .InputGroup label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+    color: rgb(78, 78, 78);
+  }
+  .InputGroup input {
+    outline: 0;
+    border: 0;
+    color: rgb(78, 78, 78);
+    width: 100%;
+    transition: border 0.5s ease-in;
+    padding: 0.68rem 0.85rem;
+    border-radius: 8px;
+  }
+  .InputGroup {
+    margin-bottom: 1rem;
+  }
+  .LoginBtn{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    margin-top: 1.8rem;
+    height: 43px;
+    border-radius: 8px;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  
+  .Logo {
+    color: var(--dark-blue);
+    font-weight: 400;
+    text-decoration: none;
+    padding: 0;
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  .FormHeader h2 {
+    margin-top: 0.6rem;
+    color:  rgb(78, 78, 78);
+  }
+  .Right h1 {
+    color: var(--white);
+    margin-top: 15rem;
+  }
+  .Right h1, .Right h2 {
+    font-weight: 500;
+  }
+  .Right h2 {
+    color: var(--white);
+    font-size: 2rem;
+  }
+  .Right p {
+    color: var(--white);
+    margin-top: 1.3rem;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+  }
+  .fullStop {
+    display: inline-block;
+    color: var(--dark-blue);
+  }
+  .Input {
+    display: flex; 
+    align-items: center;
+    background-color: var(--white);
+    overflow: hidden;
+    transition: border 0.5s ease-in;
+    border-radius: 8px;
+    border: 1px solid var(--gray);
+  }
+  .Input:hover{
+    border: 1px solid rgb(26, 114, 196);
+  }  
+  .Icon {
+    font-size: 1.2rem;
+    color: rgb(78, 78, 78);
+    display: block;
+    cursor: pointer;
+    margin: 0 0.6rem;
+  }
+  .SignInLink a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .SignInLink a:hover {
+    text-decoration: underline;
+  }
+  .SignInLink a:visited {
+    color: var(--dark-blue);
+  }
+  .FormHeader p {
+    margin-top: 0.7rem;
+    color:rgb(78, 78, 78);
+  }
+ 

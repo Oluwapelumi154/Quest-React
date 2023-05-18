@@ -1,0 +1,148 @@
+.Footer {
+  background-color: var(--dark-blue);
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+button {
+  background-color: var(--white);
+  color: var(--dark-blue);
+  border: none;
+  outline: 0;
+}
+
+.ProductHeader,
+.QuestHeader,
+.ResourcesHeader,
+.TrialsHeader {
+  font-size: 1rem;
+  color: var(--white);
+}
+
+.ProductHeader,
+.QuestHeader,
+.ResourcesHeader {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  /* letter-spacing: 0.1rem; */
+
+}
+.FooterNavLink a{
+  text-decoration: none;
+  color: var(--white);
+}
+.TrailText p {
+  font-size: 0.75rem;
+}
+/**  MobileView */
+@media screen and (max-width: 800px) {
+  .Container {
+    padding: 3rem 2rem;
+  }
+  .TrailText p{
+    color: var(--white);
+    line-height: 1.8rem;
+  }
+  .TrailText {
+    margin-top: 1.5rem;
+  }
+  
+
+  .ProductHeader,
+  .QuestHeader,
+  .ResourcesHeader {
+    margin-top: 1.5rem;
+  }
+
+  .FooterForm {
+    margin-top: 1.3rem;
+  }
+
+  .FooterForm input {
+    border: 0;
+    outline: 0;
+    padding: 0.55rem 1.3rem;
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  .FooterForm button {
+    padding: 0.5rem 0.7rem;
+    border-radius: 8px;
+    margin-top: 1.2rem;
+  }
+}
+/**Desktop View **/
+@media screen and (min-width: 800px) {
+  .Container {
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+    padding: 5rem 3rem;
+  }
+
+  .Trials {
+    flex: 3;
+  }
+
+  .Trials p {
+    margin-top: 1.5rem;
+    color: var(--white);
+  }
+
+  .FooterForm {
+    margin-top: 1.3rem;
+    display: flex;
+    max-width: 430px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .FooterForm input {
+    padding: 0.55rem 1rem;
+    outline: 0;
+    flex-grow: 1;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  .FooterForm button {
+    padding: 0.55rem 0.7rem;
+    white-space: nowrap;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-weight: 600;
+  }
+
+  .Product,
+  .Quest,
+  .Resources {
+    flex: 1;
+  }
+}
+
+.FooterNavLinks {
+  margin-top: 1.8rem;
+  list-style-type: none;
+}
+
+.FooterNavLinks li {
+  margin-top: 1.1rem;
+  text-decoration: none;
+}
+
+.FooterNavLinks li a {
+  text-decoration: none;
+  transform: color 0.5s ease-in;
+  color: var(--white);
+  font-size: 0.8rem;
+}
+
+.FooterNavLinks li a:hover {
+  color: rgb(187, 183, 183);
+}

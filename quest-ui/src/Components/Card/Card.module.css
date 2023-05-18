@@ -1,0 +1,26 @@
+.Card {
+  background-color: var(--white);
+  padding: 1.8rem 1.2rem;
+  /* width: 350px; */
+  color: rgb(77, 71, 71);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(167, 162, 162);
+}
+@media screen and (min-width: 800px) {
+  .Card {
+    width: 350px;
+  }
+}
+
+.Card p {
+  margin-top: 1.5rem;
+  line-height: 2;
+  font-size: 0.85rem;
+}
+.Card h2 {
+  font-size: 1.4rem;
+}
+.UserProfilePic {
+  border-radius: 50%;
+  height: 50px;
+}

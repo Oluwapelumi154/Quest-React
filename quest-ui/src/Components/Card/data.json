@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Jane Cooper",
+    "img": "../../svgs/Ellipse 1.svg",
+    "comments": "Hello world",
+    "rating": ""
+  },
+  {
+    "id": "2",
+    "name": "Devon Lane",
+    "img": "../../svgs/Ellipse 1.svg",
+    "comments": "This Oluwapelumi",
+    "rating": ""
+  },
+  {
+    "id": "3",
+    "name": "Jerome Bell",
+    "img": "../../svgs/Ellipse 1.svg",
+    "comments": "This Gboyega",
+    "rating": ""
+  }
+]
