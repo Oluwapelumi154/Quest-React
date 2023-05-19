@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Styles from "./Navbar.module.css";
 import { BiMenuAltRight } from "react-icons/bi";
-import { Link} from "react-router-dom";
+import { Link, useNavigate} from "react-router-dom";
 import SignUp from "../../Pages/SignUp/SignUp";
 const Navbar = () => {
   const [showMenu, setMenu] = useState(false);
@@ -47,7 +47,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className={Styles.NavLink}>
-              <button className={Styles.NavButton}>Sign up for free</button>
+              <button onClick={SignUpComponent} className={Styles.NavButton}>Sign up for free</button>
             </li>
           </ul>
         </div>

@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Styles from "./SignUp.module.css";
 import { BiUser } from "react-icons/bi";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
+import {FcGoogle} from 'react-icons/fc'
+import {BsApple} from 'react-icons/bs'
+import {GrFacebookOption} from 'react-icons/gr'
 import VectaryIcon from '../../svgs/Vectary texture (1).svg'
 import { Link } from "react-router-dom";
 const SignUp = () => {
@@ -91,8 +94,12 @@ const SignUp = () => {
               </button>
             </form>
             <div className={Styles.line}>
-
             </div>
+            <div className={Styles.SignUpPlatforms}>
+            <FcGoogle className={Styles.GoogleIcon}/>
+            <BsApple className={Styles.AppleIcon}/>
+            <GrFacebookOption className={Styles.FacebookIcon}/>
+            </div>       
           </div>
         </div>
         <div className={Styles.Right}>

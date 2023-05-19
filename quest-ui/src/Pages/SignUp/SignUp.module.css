@@ -147,26 +147,50 @@
   cursor: pointer;
   margin: 0 0.6rem;
 }
+@media screen and (min-width: 800px){
 .line {
   position: relative;
   width: 100%;
-  margin: 3rem 0;
+  margin: 2.5rem 0 1.2rem 0;
   height: 1px;
-  background-color: rgb(75,70,70);
+  background-color: rgb(158, 155, 155);
 }
 
 .line::before {
-  content: "Or SignUp with";
+  content: "or sign up with";
   position: absolute;
   font-weight: 500;
   top: 50%;
   right: 23%;
   font-size: 0.9rem;
   transform: translate(-50%, -50%);
-  padding: 0 18px;
-  color: rgb(75, 70, 70);
+  padding: 0 15px;
+  color: rgb(88, 88, 88);
   background-color: #faf8f8;
+}
+}
+@media screen and (max-width: 800px){
+.line::before {
+  content: "or sign up with";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.4rem 0;
+}
 }
 .Input input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+.SignUpPlatforms .FacebookIcon {
+  color: rgb(27, 11, 167);
+}
+.SignUpPlatforms {
+  /* border: 2px solid red; */
+   text-align: center;
+   margin: 0;
+   padding: 0.8rem;
+}
+.SignUpPlatforms .FacebookIcon, .SignUpPlatforms .GoogleIcon, .SignUpPlatforms .AppleIcon {
+  margin: 0 0.8rem;
+  font-size: 1.2rem;
 }
